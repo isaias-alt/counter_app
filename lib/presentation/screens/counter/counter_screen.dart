@@ -7,6 +7,8 @@ class CounterScreen extends StatefulWidget {
   State<CounterScreen> createState() => _CounterScreenState();
 }
 
+/// The `_CounterScreenState` class is responsible for managing the state and UI of the CounterScreen
+/// widget in a Flutter app.
 class _CounterScreenState extends State<CounterScreen> {
   int clickCounter = 0;
   @override
@@ -78,6 +80,8 @@ class _CounterScreenState extends State<CounterScreen> {
   }
 }
 
+/// The `CustomFloatingActionButton` class is a custom implementation of the `FloatingActionButton`
+/// widget in Dart, allowing customization of the icon and onPressed callback.
 class CustomFloatingActionButton extends StatelessWidget {
   final IconData icon;
   final VoidCallback? onPressed;
